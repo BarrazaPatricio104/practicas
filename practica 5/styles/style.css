@@ -1,0 +1,785 @@
+p {
+    color: red
+}
+
+:root {--naran: #EEA150}
+
+.nop {width:500px; height:500px;}
+
+#titp {font-size: 50px; color: var(--naran); text-shadow: 0px 5px 3px rgb(10, 10, 10); text-align:center;font-family: 'Secular One', sans-serif;}
+#subtitp {font-size: 30px; color: var(--naran); text-shadow: 0px 5px 3px rgb(3, 3, 3); text-align:center; margin-top: -25px;font-family: 'Secular One', sans-serif;}
+
+a:link{
+    text-decoration:none
+  }
+  a:visited{
+    text-decoration:none
+  }
+
+body {
+    background-color: #B2406F
+}
+
+main {
+    margin: 0% 10% 0% 10%;
+    background-color: #B2406F;
+}
+
+header{
+    background-color: #B2406F;
+    margin: -10px 0px 0px 0px;
+    font-size:25px;
+    color: #e20606;
+    text-shadow: 1px 1px 1px black; 
+}
+
+h4 {margin: -40px 0px 0px 65px;
+    font-size:25px;
+    color: #e20606;
+    text-shadow: 1px 2px 5px rgb(255, 249, 249);
+    font-family: 'Ibarra Real Nova', serif;
+
+}
+
+h4:hover {margin: -40px 0px 0px 65px;
+    font-size:25px;
+    color: #700808;
+    text-shadow: 1px 1px 1px black;
+}
+
+footer {background-color:#b345bd; opacity: 0.4; text-align:center; color: rgb(255, 255, 255); border-color: black; text-shadow: 1px 1px 1px black;
+padding: 10px 10px 15px 10px; margin: -10px -10px -25px -10px;}
+.tr1 {
+    position: relative;
+    margin-left: 1030px;
+    margin-top: -200px;
+    background-color:var(--naran);
+    height: 5px;
+    width: 20px;
+    z-index: 1;
+}
+
+.tr2 {
+    position: relative;
+    margin-left: 1030px;
+    margin-top: -15px;
+    background-color:var(--naran);
+    height: 5px;
+    width: 20px;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+
+.tr3 {
+    position: relative;
+    margin-left: 1030px;
+    margin-top: -15px;
+    background-color:var(--naran);
+    height: 5px;
+    width: 20px;
+    z-index: 5;
+}
+
+#tresrayas {--caja: #b17b42}
+
+
+#mkaren {
+    margin-left: 5px
+}
+
+.box1 {
+    background: repeating-linear-gradient(
+    45deg,
+    #c42e2e 0px,
+    hsl(0, 58%, 33%) 5px,
+    #bb3131 10px
+  );
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    margin: 270px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 55px rgb(0, 0, 0);
+}
+
+.box2 {
+    background-image: url("fondok4.png");
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+
+}
+
+.box22 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 20px 25px rgb(0, 0, 0);
+}
+
+.box3 {
+    background: repeating-linear-gradient(
+    45deg,
+    #46853d 0px,
+    hsl(133, 36%, 30%) 5px,
+    #408540 10px
+  );
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -10px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 55px rgb(0, 0, 0);
+}
+
+.box4 {
+    background-image: url("fondoh1.png");
+    border-radius: 10px;
+    position: relative;
+    margin: -10px 10px 0% 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 35px rgb(0, 0, 0);
+}
+
+.box42 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    bottom: 30px;
+    margin: -370px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 15px 35px rgb(0, 0, 0);
+}
+
+.box5 {
+    background: repeating-linear-gradient(
+    45deg,
+    #3d2e91 0px,
+    hsl(238, 52%, 29%) 5px,
+    #2d3497 10px
+  );
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    margin: 0px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 85px rgb(0, 0, 0);
+}
+
+.box6 {
+    background-image: url("fondoh2.png");
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+
+}
+
+.box62 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 30px 25px rgb(0, 0, 0);
+}
+
+.box7 {
+    
+    background: repeating-linear-gradient(
+    45deg,
+    #a84498 0px,
+    hsl(300, 47%, 37%) 5px,
+    #aa40a1 10px
+  );
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -10px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 55px rgb(0, 0, 0);
+}
+
+.box8 {
+    background-image: url("fondokao.png");
+    border-radius: 10px;
+    position: relative;
+    margin: -10px 10px 0% 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 35px rgb(0, 0, 0);
+}
+
+.box82 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    bottom: 30px;
+    margin: -370px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 15px 35px rgb(0, 0, 0);
+}
+
+.box9 {
+    background: repeating-linear-gradient(
+    45deg,
+    #9229ac 0px,
+    hsl(281, 73%, 30%) 5px,
+    #972bb8 10px
+  );
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    margin: 0px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 85px rgb(0, 0, 0);
+}
+
+.box10 {
+    background-image: url("fondof.png");
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+
+}
+
+.box102 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 30px 25px rgb(0, 0, 0);
+}
+
+.box11 {background: repeating-linear-gradient(
+    45deg,
+    #6d6d6d 0px,
+    #575756 5px,
+    #696969 10px
+  );
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -10px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 55px rgb(0, 0, 0);
+}
+
+.box12 {
+    background-image: url("fondomaya.png");
+    border-radius: 10px;
+    position: relative;
+    margin: -10px 10px 0% 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 35px rgb(0, 0, 0);
+
+}
+
+.box122 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    bottom: 30px;
+    margin: -370px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 15px 35px rgb(0, 0, 0);
+}
+
+.box13 {
+    background: repeating-linear-gradient(
+    45deg,
+    #ca6e17 0px,
+    hsl(34, 67%, 42%) 5px,
+    #c07c15 10px
+  );
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    margin: 0px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 85px rgb(0, 0, 0);
+}
+
+.box14 {
+    background-image: url("fondoc.png");
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+
+}
+
+.box142 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 30px 25px rgb(0, 0, 0);
+}
+
+.box15 {
+    
+    background: repeating-linear-gradient(
+    45deg,
+    #13b2b8 0px,
+    hsl(180, 76%, 33%) 5px,
+    #1ea0c0 10px
+  );
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -10px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 55px rgb(0, 0, 0);
+}
+
+.box16 {
+    background-image: url("fondoj.png");
+    border-radius: 10px;
+    position: relative;
+    margin: -10px 10px 0% 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 35px rgb(0, 0, 0);
+
+}
+
+.box162 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    bottom: 30px;
+    margin: -370px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 15px 35px rgb(0, 0, 0);
+}
+
+.box17 {
+    background: repeating-linear-gradient(
+    45deg,
+    #b5b827 0px,
+    hsl(64, 45%, 45%) 5px,
+    #c4c131 10px
+  );
+    border-radius: 10px;
+    position: relative;
+    bottom: 30px;
+    margin: 0px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 25px 85px rgb(0, 0, 0);
+}
+
+.box18 {
+    background-image: url("fondon.png");
+    border-radius: 10px;
+    opacity: 1;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+
+}
+
+.box182 {
+    background-image: url("blackimg.png");
+    z-index: 2;
+    border-radius: 10px;
+    opacity: 0.6;
+    position: relative;
+    float: right;
+    margin: -389px 10px 0px 10px;
+    width: 515px;
+    height: 360px;
+    box-shadow: 0px 30px 25px rgb(0, 0, 0);
+}
+
+#karenp {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 50px
+}
+
+#karenp:hover {margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 50px;
+    width:35%;}
+
+#mahirup {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 20px
+}
+
+#mahirup:hover {margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 20px;
+    width: 35%;
+}
+
+#hikarip {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 50px;
+    width: 25%;
+}
+
+#hikarip:hover {margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 50px;
+    width: 35%;}
+
+#kaorukop {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 20px;
+    width: 25%;
+}
+
+#kaorukop:hover {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 20px;
+    width: 35%;
+}
+
+#futabap {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 50px;
+    width: 25%;
+}
+
+#futabap:hover {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 50px;
+    width: 35%;
+}
+
+#mayap {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 20px;
+    width: 25%;
+}
+
+#mayap:hover {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 20px;
+    width: 35%;
+}
+
+#claudinep {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 50px;
+    width: 25%;
+}
+
+#claudinep:hover {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 50px;
+    width: 35%;
+}
+
+#junnap {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 20px;
+    width: 25%;
+}
+
+#junnap:hover {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 20px;
+    width: 35%;
+}
+
+#nanap {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 190px;
+    top: 50px;
+    width: 25%;
+}
+
+#nanap:hover {
+    margin: 0x 0px 0px 2px;
+    position: relative;
+    left: 165px;
+    top: 50px;
+    width: 35%;
+}
+
+#h11 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+}
+
+#h12 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black
+}
+
+#h13 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h14 {
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 5px;
+    left:10px;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black;
+}
+
+#h15 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h16 {
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    top: 5px;
+    right:10px;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black;
+}
+
+#h17 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h18 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black
+}
+
+#h19 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h20 {
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black
+}
+
+#h21 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h22 {
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    top:30px;
+    right: 35px;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black
+}
+
+#h23 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h24 {
+    font-size: 40px;
+    text-align: right;
+    position: relative;
+    top:15px;
+    right: 35px;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black
+}
+
+#h25 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h26 {
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black
+}
+
+#h27 {
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    font-family: 'Righteous', cursive;
+    text-shadow: 0px 2px 2px white;
+
+}
+
+#h28 {
+    font-size: 40px;
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    z-index: 3;
+    font-family: 'Ibarra Real Nova', serif;
+    color: white;
+    border-color: black
+}

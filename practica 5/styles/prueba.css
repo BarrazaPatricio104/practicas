@@ -1,0 +1,31 @@
+div {margin: 0% 25% 0% 25%;}
+
+#sirve {
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+  }
+
+@keyframes rainbow {
+
+    0% {
+        background-image: url("1010011_cg.png");
+      }
+      
+    
+      10% {
+        background-image: url("1010012_cg.png");
+      }
+    
+      40% {
+        background-image: url("1010017_cg.png");
+      }
+    
+      80% {
+        background-image: url("1010024_cg.png");
+      }
+
+      100% {
+        background-image: url("1010011_cg.png");
+      }
+    }

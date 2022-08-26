@@ -1,0 +1,55 @@
+header {
+    background-color: rgba(141, 64, 64, 0.808);
+    text-align: left;
+    padding: 10px 10px 10px 10px;
+    margin: -7px -7px 0px -7px;
+}
+
+body {
+    background-color: rgb(41, 40, 40)
+}
+
+h1 {
+    color: rgb(141, 64, 64);
+    font-family: 'Tiro Kannada', serif;
+    text-shadow: 0px 7px 7px rgb(26, 25, 25);
+    font-size: 45px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+p {
+    color: white;
+    text-shadow: 0px 5px 5px black;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0px 0px 0px;
+}
+
+footer {
+    background-color: rgba(122, 44, 44, 0.747);
+    text-align: center;
+    margin: 0px -8px -8px -8px;
+    position:unset;
+    bottom: 5px;
+}
+
+button {
+    color: white;
+    font-family: 'Ibarra Real Nova', serif;
+    background-color: rgba(250, 169, 20, 0.349);
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    margin: 6% 43% 6% 43%;
+    text-align: center;
+}
+
+#kairip {width:60px; height:60px; opacity: 0.6;}

@@ -1,0 +1,22 @@
+#barra {background-color: #000000;padding: 1.45% 1.45% 1.45% 1.45%;margin: -0.58% -0.58% 0% -0.58%;}
+#fondo1 {background-color: #9B000B;height: 950px; width: 50.57%; ;margin: 0% 0% 0% -0.57%; float: left;}
+#fondo2 {background-color: #009B90
+    ;width: 50.57%; height: 950px; margin: 0% -0.57% 0% 0%; float: right;}  
+#pos1 {position:relative; top: 550px; margin-bottom: -169px; color: rgb(139, 57, 54); margin-left: 70.4% ;}
+p {text-align: left; color: rgb(248, 245, 245); z-index: 2; font-size: 21px; position: relative; top: 5px; margin-bottom: -693px; margin-left: 40.7%;margin-right: 36.7%; font-family: constantia; text-shadow: 0px 3px 3px black;}
+li {font-size: 30px; font-family: "Lucida Console";}
+#tiba {font-family: "Press Start 2P"; text-align: center; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgb(139, 139, 67); font-size: 40px;}
+#frase {font-family: Courgette, Times, serif; position: relative; font-size: 40px; color: white; text-decoration-line: overline; top: 70px; margin-bottom: -71px; margin-left: 2%;}
+#frase2 {font-family: Courgette; position: relative; font-size: 40px; color: white; top: 110px; margin-bottom: -48px; margin-left: 3%;}
+#subfr {position: relative; font-size: 30px; color: rgba(255, 255, 255, 0.582); top: 140px; margin-bottom: -12px; margin-left: 24%}
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    text-decoration: none
+}
+
+footer {background-color: black; color: rgb(255, 255, 255); text-shadow: 0px 2px 2px rgb(139, 139, 67); padding: 15px 10px 15px 10px; margin: 0px -8px -13px -8px; text-align: center;}
+
+.lista {color: white; text-shadow:  0px 3px 2px rgb(100, 94, 38);}

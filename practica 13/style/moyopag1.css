@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(360deg, #00D897 75%, #5BF977 25%);
+    width: 1300px;
+    height: 720px;
+}
+
+footer {
+    position: absolute;
+    top: 770px;
+    background-color: #5BF977;
+    text-align: center;
+    padding-left: 47.85%;
+    padding-right: 48.10%;
+    margin-left: -2%;
+    margin-right: -1.80%;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: 'Kanit', sans-serif;
+    text-shadow: 0px 2px 2px #03470f;
+}
+
+#tep {font-size: 28px; 
+    font-family: 'Ibarra Real Nova', serif;
+}
+
+#titu {
+    font-size: 70px;
+    text-shadow: 0px 2px 2px #3c3f06;
+    text-align: center;
+    margin-left: 55px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#vid {position: absolute; left:245px;}

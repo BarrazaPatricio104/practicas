@@ -1,0 +1,58 @@
+.nop {
+  width: 50%;
+}
+
+div {
+  margin: 25% 25%;
+}
+
+#animoyo {
+  animation-name: rainbow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  
+  0% {background-size: auto;
+    background: repeating-linear-gradient(
+    45deg,
+    rgb(7, 231, 75) 0px,
+    rgb(42, 153, 14) 40px,
+    rgb(17, 99, 28) 40px,
+    rgb(9, 49, 18) 80px
+  );}
+  
+  25% {background-size: auto;
+    background: repeating-linear-gradient(45deg,
+        rgb(142, 19, 167) 0px,
+        rgb(108, 19, 143) 40px,
+        rgb(88, 23, 117) 40px,
+        rgb(50, 20, 85) 80px);
+  }
+
+  50% {background-size: auto;
+    background: repeating-linear-gradient(45deg,
+        rgb(235, 16, 16) 0px,
+        rgb(205, 16, 16) 20px,
+        rgb(175, 16, 16) 40px,
+        rgb(145, 16, 16) 60px,
+        rgb(115, 16, 16) 80px);
+  }
+
+  75% {background-size: 100%;
+    background: repeating-linear-gradient(45deg,
+        rgb(7, 231, 75) 0px,
+        rgb(42, 153, 14) 40px,
+        rgb(17, 99, 28) 40px,
+        rgb(9, 49, 18) 80px);    }
+
+        100% {
+          background: repeating-linear-gradient(
+          45deg,
+          rgb(7, 231, 75) 0px,
+          rgb(42, 153, 14) 40px,
+          rgb(17, 99, 28) 40px,
+          rgb(9, 49, 18) 80px
+        );}
+}

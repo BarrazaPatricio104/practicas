@@ -1,0 +1,77 @@
+iframe {
+    margin-left: 11.9%;
+    margin-right: 11.9%;
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    text-decoration: none
+}
+
+footer {
+    text-align: center;
+    padding: 1% 10% 1% 10%;
+    margin: 1% -0.57% -3% -0.5%;
+    position: unset;
+    bottom: 0;
+    background-color: rgba(255, 0, 255, 0.473);
+}
+
+li {
+    margin: 8% 0% 0% 0%;
+}
+
+#logo {
+    font-size: 2.5em;
+    margin-left: 1%;
+}
+
+#heri {
+    font-size: 2em;
+    margin-left: 80%
+}
+
+#heim {
+    margin-left: 5%;
+    font-size: 2em;
+}
+
+header {
+    background-color: rgba(255, 0, 255, 0.473);
+    padding: 1% 10% 1% 10%;
+    margin: -1% -0.57% 0% -9.5%;
+}
+
+body {
+    background-image: url(kokofon.png);
+    background-size: cover;
+}
+
+#titulo {
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 2px 2px 4px white;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+#tit1 {
+    color: #358cf9;
+}
+
+#tit2 {
+    color: #fbac2f;
+}
+
+#tit3 {
+    color: #fa72de;
+}
+
+#sub {
+    text-align: center;
+    font-size: 25px;
+    margin: 0% 10% 3% 10%;
+    text-shadow: 3px 3px 3px white;
+}

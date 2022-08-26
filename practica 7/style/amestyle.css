@@ -1,0 +1,145 @@
+body {
+    background-color: rgb(218, 191, 157);
+}
+
+main {
+    background-image: url("pescado.png");
+    background-size: cover;    
+    margin: 0% 10% 0% 10%;
+}
+
+#rayitas {width:40px; height:40px; margin-left: 29em; }
+
+#rayitas:hover {width:50px; height:50px; margin-left: 29em;}
+
+#pescado {width: 500px; 
+height: 300px; margin-bottom: 50px;}
+
+header {
+    background-color: rgb(189, 153, 110);
+    margin: -8px -140px 0px -140px;
+    font-size: 30px;
+    font-family: 'Kanit', sans-serif;
+    color:rgb(197, 134, 98);
+    text-shadow: 3px 3px 2px rgb(206, 180, 164);
+
+}
+
+#titulo {color: white;text-shadow: 1px 7px 5px rgb(58, 40, 27);text-align: center; font-size: 55px;font-family: 'Roboto Slab', serif;
+}
+
+#caja1 {float: left;
+    margin: 2em 0.2em 1em 0.2em;
+    animation-name: aniame;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+#invisible {color:rgb(240, 248, 255); text-align: center; text-shadow: 5px 3px 2px black;}
+
+#caja2 {float: right;
+    margin: 1em 0.2em 1em 0.2em;
+width: 600px;
+height: 500px;}
+    
+#subcaja1 {background-color:  rgb(240, 217, 192);
+    float: left;
+    margin: 0.2em 0.4em 0.4em 0.2em;
+width: 18em;
+height: 15em;}
+
+#subcaja2 {background-color:   rgb(240, 217, 192);
+    float: right;
+    margin: 0.2em 0.2em 0.4em 0.4em;
+width: 18em;
+height: 15em;}
+
+#subcaja3 {background-color:   rgb(240, 217, 192);
+    float: left;
+    margin: 0.4em 0.4em 0.2em 0.2em;
+width: 18em;
+height: 15em;}
+
+#subcaja4 {background-color:  rgb(240, 217, 192);
+    float: right;
+    margin: 0.4em 0.2em 0.2em 0.4em;
+width: 18em;
+height: 15em;}
+
+h2 {color: rgb(114, 74, 46);margin: 15px 0px -8px 20px; font-size: 30px;}
+
+.sbox1 {font-size: 22px; line-height: 35px; font-family: 'Anton', sans-serif;
+}
+.sbox2 {font-size: 22px; margin: 15px 20px 0px 20px; line-height: 30px;font-family: 'Anton', sans-serif;
+
+}
+.sbox3 {font-size: 55px; text-align:center; }
+
+
+#pata {
+    width: 40px;
+    height: 40px;
+    margin-left: 5em;
+}
+
+#pie1 {
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+    background-color: rgb(189, 153, 110);
+    padding: 30px 40px 30px 40px
+}
+
+a:link {
+    text-decoration: none
+}
+
+a:visited {
+    text-decoration: none
+}
+
+#endi {margin:0% 0% -2% 9%; font-size: 30px; font-family:'Ibarra Real Nova', serif;
+}
+
+.Erifuna {margin: 0% 0% -2% 60%; font-size: 25px; font-family: 'Anton', sans-serif;
+}
+.Erifuna2 {margin: 0% 0% 10% 7%; font-size: 25px; font-family: 'Anton', sans-serif;
+}
+@keyframes aniame {
+
+    0% {
+        background-image: url("ame1.png");
+        width: 450px;
+        height: 450px;
+    }
+
+    20% {
+        background-image: url("ame2.png");
+        width: 450px;
+        height: 450px;
+    }
+
+    40% {
+        background-image: url("ame3.png");
+        width: 450px;
+        height: 450px;
+    }
+
+    60% {
+        background-image: url("ame4.png");
+        width: 450px;
+        height: 450px;
+    }
+
+    80% {
+        background-image: url("ame5.png");
+        width: 450px;
+        height: 450px;
+    }
+
+    100% {
+        background-image: url("ame1.png");
+        width: 450px;
+        height: 450px;
+    }
+}

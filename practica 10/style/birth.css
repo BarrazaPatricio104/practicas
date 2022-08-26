@@ -1,0 +1,154 @@
+body {
+    background: repeating-linear-gradient(90deg,
+            rgb(35, 218, 35) 0%,
+            rgb(35, 218, 35) 75%,
+            rgb(0, 0, 0)75%,
+            rgb(0, 0, 0) 100%);
+}
+
+h1 {
+    font-size: 55px;
+    font-family: sylfaen;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    text-align: left;
+    font-family: "Baskerville Old Face";
+}
+
+footer {
+    position: unset;
+    bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 10% 0% -2% -1%;
+    padding: 1% 0% 1% 1.1%;
+    font-family: "Cambria Math";
+    font-size: 15px;
+}
+
+#box1 {
+    width: 600px;
+    height: 500px;
+    float: left;
+    margin: 3% 1.5% 3% 3%;
+}
+
+#box2 {
+    background-image: url(regalos.png);
+    width: 600px;
+    height: 500px;
+    float: right;
+    margin: 3% 3% 1% 1.5%;
+}
+
+#boxp {
+    width: 1324px;
+    height: 540px;
+}
+
+#nombre {
+    padding: 2% 2% 2% 2%;
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 520px;
+    border-radius: 15px;
+}
+
+#mail {
+    padding: 2% 2% 2% 2%;
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 520px;
+    border-radius: 15px;
+}
+
+#plata {
+    padding: 2% 2% 2% 2%;
+    margin-top: 3%;
+    width: 520px;
+    border-radius: 15px;
+}
+
+#yen {
+    margin-right: 1.5%;
+    font-size: 30px;
+}
+
+#frase {
+    padding: 2% 2% 2% 2%;
+    margin-top: 3%;
+    margin-left: 4%;
+    width: 520px;
+    height: 70px;
+    border-radius: 15px;
+}
+
+#boton {
+    width: 300px;
+    height: 70px;
+    background-color: black;
+    border-color: rgb(0, 190, 32);
+    font-size: 25px;
+    border-radius: 15px;
+    margin: 30px 0px 20px 135px;
+    color: white;
+    font-family: "Bookman Old Man";
+}
+
+#boton:hover {
+    width: 300px;
+    height: 70px;
+    background-color: rgb(49, 49, 49);
+    border-color: rgb(1, 150, 26);
+    font-size: 25px;
+    border-radius: 15px;
+    margin: 30px 0px 20px 135px;
+    color: white;
+}
+
+#boton:active {
+    width: 280px;
+    height: 50px;
+    background-color: rgb(82, 80, 80);
+    border-color: rgb(0, 95, 16);
+    font-size: 25px;
+    border-radius: 15px;
+    margin: 40px 0px 20px 145px;
+    color: white;
+}
+
+#redes {
+    width: 290px;
+    height: 50px;
+    margin-left: 780px;
+    margin-bottom: 40px;
+}
+
+#face {
+    width: 50px;
+    height: 50px;
+}
+
+#insta {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#web {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+#twitter {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}

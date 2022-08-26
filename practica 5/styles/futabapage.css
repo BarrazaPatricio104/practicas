@@ -1,0 +1,122 @@
+body {
+  position: static;
+  background-size: cover;
+  background-image: url("background_131.png");
+}
+
+div {
+  margin: auto;
+}
+
+header {
+  background-color: rgba(161, 40, 197, 0.562);
+  padding: 5px 0px 10px 5px;
+  margin: -10px -8px 20px -8px;
+}
+
+#seisho {
+  margin-left: 5px;
+  width: 45px;
+}
+
+a:link {
+  text-decoration: none
+}
+
+a:visited {
+  text-decoration: none
+}
+
+h4 {
+  margin: -40px 0px 0px 50px;
+  font-size: 25px;
+  color: #f3eded;
+  text-shadow: 1px 2px 5px rgb(91, 9, 129);
+  font-family: 'Ibarra Real Nova', serif;
+}
+
+h4:hover {
+  margin: -40px 0px 0px 50px;
+  font-size: 25px;
+  color: #7c16ac;
+  text-shadow: 1px 1px 1px black;
+}
+
+h1 {font-family: 'Poppins', sans-serif; text-align: center;}
+
+p {font-family: 'Mukta', sans-serif; font-size: 20px;
+}
+
+ul {font-family: 'Mukta', sans-serif; font-size: 20px; margin: 0px 0px 0px -20px}
+
+footer {
+  background-color: rgb(133, 3, 194);
+  opacity: 0.5;
+  text-align: center;
+  position: absolute;
+  bottom: 0px;
+  margin: 20px 0px -5px -8px;
+  padding: 5px -10px 0px 10px;
+  width: 100%;
+}
+
+.boxp {
+  background-color: rgba(255, 255, 255, 0.800);
+  background-size: cover;
+  border-style: solid;
+  border-color: rgb(133, 3, 194);
+  border-radius: 20px;
+  width: 900px;
+  height: 550px;
+}
+
+#Karenfondo {float: left;
+  margin: 25px 10px 25px 25px;
+  background-position: left;
+  animation-name: karenf;
+  animation-duration: 11s;
+  animation-iteration-count: infinite;
+  border-radius: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(133, 3, 194);
+}
+
+#info {float: right;
+text-align: left;
+margin: 20px 20px 20px 10px;
+width: 430px;
+height: 500px;}
+
+@keyframes karenf {
+
+  0% {
+    background-image: url("futabapag1.png");
+    width: 400px;
+    height: 500px;
+  }
+
+  25% {
+    background-image: url("futabapag2.png");
+    width: 400px;
+    height: 500px;
+  }
+
+  50% {
+    background-image: url("futabapag3.png");
+    width: 400px;
+    height: 500px;
+  }
+
+  75% {
+    background-image: url("futabapag4.png");
+    width: 400px;
+    height: 500px;
+  }
+
+  100% {
+    background-image: url("futabapag1.png");
+    width: 400px;
+    height: 500px;
+  }
+}

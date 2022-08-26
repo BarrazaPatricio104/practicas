@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+h1 {
+    margin: auto;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+    font-family: "Baskerville Old Face";
+}
+
+h2 {
+    margin: auto;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    font-family: "Baskerville Old Face";
+}
+
+footer {
+    position: unset;
+    bottom: 0px;
+    font-size: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 3.5% -0.6% -2% -1%;
+    padding: 1% 0.7% 1% 1.1%;
+    font-family: "Cambria Math";
+    font-size: 15px;
+}
+
+#foto {
+    height: 12%;
+    width: 22%;
+    margin: 0% 38% 0% 38%;
+}

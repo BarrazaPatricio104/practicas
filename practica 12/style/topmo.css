@@ -1,0 +1,215 @@
+body {
+    background-color: #31598d;
+}
+
+p {
+    font-size: 22px;
+    margin-top: -10px;
+    margin-right: 25%;
+    line-height: 30px;
+    color: rgb(34, 34, 34);
+    font-family: 'Rubik', sans-serif;
+}
+
+
+main {
+    margin: 0% 5% 0% 5%;
+}
+
+#subup {
+    font-size: 40px;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+#boxti {
+    font-size: 70px;
+    margin-top: -15px;
+    color: #12553c;
+    border-color: black;
+    text-shadow: 0px 4px 4px black;
+    font-family: 'Anton', sans-serif;
+
+}
+
+#heiz {
+    text-align: left;
+    margin-left: 5.4%;
+}
+
+#star {
+    font-size: 35px;
+    color: rgb(95, 94, 94);
+    font-family: 'Roboto Slab', serif;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
+#heiz1 {
+    width: 50px;
+    height: 50px;
+}
+
+#hede {
+    margin-left: 53%
+}
+
+#insta {
+    opacity: 0.6;
+}
+
+#twitter {
+    opacity: 0.6;
+    margin-left: 1%;
+}
+
+#boxp {
+    width: 1210px;
+    height: 920px;
+}
+
+#box1 {
+    float: left;
+    width: 600px;
+    height: 600px;
+    margin-right: 5px;
+}
+
+#moyos {
+    width: 450px;
+    height: 450px;
+    animation-name: sailor;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+#moyod {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    animation-name: dead;
+    animation-duration: 0.50s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+#moyog {
+    width: 550px;
+    height: 550px;
+    margin-top: 5%;
+    animation-name: geki;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+#moyok {
+    width: 250px;
+    height: 250px;
+    opacity: 0;
+    animation-name: pro;
+    animation-delay: 2.5s;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+#moyor {
+    width: 250px;
+    height: 250px;
+    margin-top: 3%;
+    animation-name: rubia;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+.bor {
+    -webkit-text-stroke: 2px black;
+    color: transparent;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(146, 145, 145, 0.53);
+    padding: 1% 1.1% 1% 0%;
+    margin: 0% -1% -0.6% -0.6%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+
+header {
+    background-color: rgb(146, 145, 145, 0.53);
+    padding: 1% 0% 1% 0%;
+    margin: -1% -6.6% 0% -6.6%;
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+}
+
+@keyframes geki {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes sailor {
+    0% {
+        opacity: 0;
+        margin-top: -600px;
+    }
+
+    80% {
+        opacity: 0;
+        margin-top: -300px
+    }
+
+    90% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes rubia {
+    0% {
+        opacity: 0;
+        margin-left: 100px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 330px;
+    }
+}
+
+@keyframes dead {
+    0% {
+        opacity: 0;
+        margin-left: -250px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 2.8%;
+    }
+}
+
+@keyframes pro {
+    0% {
+        opacity: 1;
+        margin-left: -510px;
+    }
+
+    100% {
+        opacity: 1;
+        margin-left: 2.8%;
+    }
+}

@@ -1,0 +1,304 @@
+a:link {
+  text-decoration: none
+}
+
+a:visited {
+  text-decoration: none
+}
+
+
+#boxp {
+  width: 1024px;
+  height: 500px;
+  margin: auto;
+  margin-top: 11.5%;
+  margin-bottom: 5.5%;
+}
+
+#box1 {
+  width: 70%;
+  height: 500px;
+  float: left;
+}
+
+#box2 {
+  width: 30%;
+  height: 500px;
+  float: right;
+}
+
+#titulo {
+  font-size: 40px;
+  text-shadow: 0px 2px 2px green;
+  color: white;
+  font-family: 'Vollkorn', serif;
+}
+
+#subtitulo {
+  font-size: 20px;
+  text-shadow: 0px 2px 2px green;
+  color: white;
+  font-family: 'Tiro Kannada', serif;
+}
+
+
+#dib1 {
+  background-color: green;
+  position: absolute;
+  height: 250px;
+  width: 150px;
+  border-radius: 50%;
+  top: 354px;
+  left: 214px;
+  transform: skewX(40deg);
+  z-index: 1;
+}
+
+#dib2 {
+  background-color: green;
+  position: absolute;
+  height: 250px;
+  width: 150px;
+  bottom: 386px;
+  left: 214px;
+  border-radius: 50%;
+  transform: skewX(140deg);
+  z-index: 2;
+}
+
+#dib3 {
+  background-color: green;
+  position: absolute;
+  height: 250px;
+  width: 150px;
+  border-radius: 50%;
+  left: 465px;
+  top: 354px;
+  transform: skewX(140deg);
+  z-index: 3;
+}
+
+#dib4 {
+  background-color: green;
+  position: absolute;
+  height: 250px;
+  width: 150px;
+  border-radius: 50%;
+  left: 465px;
+  bottom: 386px;
+  transform: skewX(40deg);
+  z-index: 4;
+}
+
+#centro {
+  width: 423px;
+  height: 430px;
+  z-index: 5;
+}
+
+#center {
+  border-radius: 50%;
+  display: block;
+  z-index: 6;
+  position: absolute;
+  left: 15%;
+}
+
+#boton {
+  background-color: #800080;
+  width: 180px;
+  height: 60px;
+  margin: 10% 20% 0% 20%;
+  font-size: 15px;
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  font-family: 'Ibarra Real Nova', serif;
+  border-radius: 25px;
+}
+
+#boton:hover {
+  background-color: #ac6eac;
+  width: 180px;
+  height: 60px;
+  margin: 10% 20% 0% 20%;
+  font-size: 15px;
+  font-family: 'Ibarra Real Nova', serif;
+
+}
+
+#boton:active {
+  background-color: #b67fb6;
+  width: 130px;
+  height: 40px;
+  margin: 13% 20% 0% 26%;
+  font-size: 10px;
+  font-family: 'Ibarra Real Nova', serif;
+
+}
+
+#numero {
+  animation-name: moyonum;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  color: white;
+  font-family: 'Rampart One', cursive;
+
+}
+
+#rules {
+  animation-name: rule;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  color: #008000;
+  font-family: "Press Start 2P";
+}
+
+
+
+#ayuda {
+  font-size: 100px;
+  font-family: 'Tiro Kannada', serif;
+  color: #800080;
+  text-shadow: 0px 7px 7px white;
+  margin: 21% 7% 15% 7%
+}
+
+body {
+  background-color: black;
+}
+
+#ayudab {
+  background-image: url("fondob.png");
+  background-size: auto;
+}
+
+footer {
+  background-color: rgb(0, 128, 0);
+  margin: 19.75% -0.59% -1% -0.59%;
+  padding: 0.50% 0.60% 0.5% 0.60%;
+  position: unset;
+  bottom: 0px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Vollkorn', serif;
+  text-shadow: 0px 3px 3px blueviolet;
+}
+
+@keyframes rule {
+
+  0% {
+    position: absolute;
+    top: 660px;
+    font-size: 55px;
+    margin: 0% 15% 0% 25%;
+    z-index: 8;
+    opacity: 0;
+  }
+
+  80% {
+    position: absolute;
+    top: 660px;
+    margin: 0% 15% 0% 25%;
+    font-size: 55px;
+    z-index: 8;
+    opacity: 0;
+  }
+
+  90% {
+    position: absolute;
+    top: 660px;
+    margin: 0% 15% 0% 25%;
+    font-size: 55px;
+    z-index: 8;
+    opacity: 1;
+  }
+
+  100% {
+    position: absolute;
+    top: 660px;
+    margin: 0% 15% 0% 25%;
+    font-size: 55px;
+    z-index: 8;
+    opacity: 0;
+  }
+}
+
+@keyframes moyonum {
+
+  0% {
+    position: absolute;
+    top: 0px;
+    font-size: 35px;
+    z-index: 7;
+  }
+
+  12.5% {
+    position: absolute;
+    top: 600px;
+    margin-left: 130px;
+    font-size: 38px;
+    z-index: 7;
+  }
+
+
+  25% {
+    position: absolute;
+    margin-left: 700px;
+    top: 500px;
+    font-size: 41px;
+    z-index: 7;
+  }
+
+  37.5% {
+    position: absolute;
+    margin-left: 800px;
+    top: 0px;
+    font-size: 44px;
+    z-index: 7;
+  }
+
+  50% {
+    position: absolute;
+    margin-left: 1220px;
+    top: 80px;
+    font-size: 47px;
+    z-index: 7;
+  }
+
+  62.5% {
+    position: absolute;
+    margin-left: 1130px;
+    top: 600px;
+    font-size: 51px;
+    z-index: 7;
+  }
+
+  75% {
+    position: absolute;
+    margin-left: 10px;
+    top: 550px;
+    font-size: 54px;
+    z-index: 7;
+  }
+
+  87.5% {
+    position: absolute;
+    margin-left: 80px;
+    top: 0px;
+    font-size: 57px;
+    z-index: 7;
+  }
+
+
+  100% {
+    position: absolute;
+    top: 0px;
+    margin-left: 612px;
+    font-size: 90px;
+    z-index: 7;
+    background-color: #800080;
+    border-radius: 60%;
+    padding: 1% 1% 1% 1%
+  }
+}
